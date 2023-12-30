@@ -6,12 +6,11 @@ import insta from "../../Assets/insta.svg";
 import web from "../../Assets/web.svg";
 import x from "../../Assets/x.svg";
 import youtube from "../../Assets/youtube.svg";
-// import { FiSend } from "react-icons/fi";
 import send from "../../Assets/send.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="foot-left">
         <div className="company-info">
           <img src={logo} alt="" className="footer-logo" />

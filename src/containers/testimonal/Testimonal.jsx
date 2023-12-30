@@ -12,14 +12,13 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const Testimonal = () => {
   return (
     <>
-    <div className="testimonal">
+    <div className="testimonal" id="testimonal">
       <div className="test-left">
         <img src={Tesla} alt="" className="tesla" />
       </div>
 
       <div className="test-right">
         <div className="test-about">
-          {/* <div className="test-description"> */}
             <p className="test-desc">
               Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
               lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
@@ -33,15 +32,10 @@ const Testimonal = () => {
               condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
               amet magna.
             </p>
-          {/* </div> */}
-          {/* <div className="test-author"> */}
             <p className="test-author-title">Tim Smith</p>
-          {/* </div> */}
-          {/* <div className="author-about"> */}
             <p className="test-auth-desc">
               British Dragon Boat Racing Association
             </p>
-          {/* </div> */}
         </div>
         <div className="test-clients">
           <div className="client-img">

@@ -4,7 +4,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const CTA = () => {
   return (
-    <div className='cta'>
+    <div className='cta' id='cta'>
       <div className="cta-text">
         <p>Pellentesque suscipit fringilla libero eu.</p>
       </div>

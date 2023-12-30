@@ -68,7 +68,7 @@ const Navbar = () => {
                 <a href="#feature">Feature</a>
               </p>
               <p>
-                <a href="#prduct">Product</a>
+                <a href="#product">Product</a>
               </p>
               <p>
                 <a href="#testimonal">Testimonal</a>

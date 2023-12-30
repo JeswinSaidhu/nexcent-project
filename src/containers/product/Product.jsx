@@ -9,7 +9,7 @@ import { FaRegHandshake } from "react-icons/fa6";
 const Product = () => {
   return (
     <>
-      <div className="product">
+      <div className="product" id="product">
         <div className="product-section1">
           <div className="ps1-right">
             <img src={ill2} alt="" className="ps1-img" />
