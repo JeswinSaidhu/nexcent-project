@@ -1,0 +1,92 @@
+.service{
+    padding: 4rem;
+}
+
+.service-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.service-title {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.service-description {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.clients {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.client1 {
+    width: 40px;
+    height: 40px;
+}
+
+.client2 {
+    width: 40px;
+    height: 28px;
+}
+
+.client3{
+    width: 55px;
+    height: 30px;
+}
+
+.client4{
+    width: 47px;
+    height: 29px;
+}
+
+.client5 {
+    width: 41px;
+    height: 27px;
+}
+
+.client6{
+    width: 55px;
+    height: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    .service{
+        padding: 2rem;
+    }
+
+    .service-title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .service-description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+}

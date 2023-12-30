@@ -1,0 +1,146 @@
+.footer {
+    padding: 4rem;
+    background-color: var(--color-footer);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.company-info {
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    width: 44px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-nexcent {
+    width: 137px;
+    height: 30px;
+}
+
+.copyright-info {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.socials {
+    display: flex;
+    gap: 16px;
+}
+
+.social {
+    width: 32px;
+    height: 32px;
+}
+
+.foot-right {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.footer-about {
+    width: 160px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.footer-sub {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.footer-about input[type="text"] {
+    border-radius: 8px;
+    opacity: 0.2;
+    background: #111;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 12px;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #ffffff;
+}
+
+.footer-about input[type="image"] {
+    border-radius: 8px ;
+    opacity: 0.2;
+    background: #111;
+    border: none;
+    width: 55px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.send {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-input {
+    display: flex;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        gap: 100px;
+    }
+
+    .foot-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .company-info {
+        margin-bottom: 30px;
+    }
+
+    .foot-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+    }
+}

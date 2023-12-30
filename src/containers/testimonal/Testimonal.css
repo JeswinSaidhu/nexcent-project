@@ -1,0 +1,115 @@
+.testimonal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 60px;
+    background: var(--color-bg);
+}
+
+.tesla {
+    width: 320px;
+    height: 320px;
+    border-radius: 8px;
+}
+
+.test-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.test-desc {
+    color: var(--color-subtext);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.test-author-title {
+    color: var(--color-brand);
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+.test-auth-desc{
+    color: var(--color-subtext);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.test-clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+    gap: 32px;
+}
+
+.test-clients img {
+    width: 30px;
+    height: 30px;
+}
+
+.client-img {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.test-more {
+    display: flex;
+    align-items: center;
+}
+
+.test-button {
+    background: var(--color-bg);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-brand);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1030px) {
+    .testimonal {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .test-right p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .test-right {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .testimonal {
+        padding: 3rem;
+    }
+}

@@ -1,0 +1,47 @@
+.cta {
+    padding: 4rem;
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.cta-text {
+    color: var(--color-text);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    width: 800px;
+}
+
+.cta-btn {
+    background: var(--color-brand);
+    border: none;
+    display: flex;
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .cta {
+        padding: 2rem;
+    }
+
+    .cta-text {
+        width: auto;
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
